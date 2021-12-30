@@ -1,3 +1,6 @@
+# Ditto for the Swift Package Manager
+
+https://docs.ditto.live/installation/ios
 
 ## 📄 License
 
