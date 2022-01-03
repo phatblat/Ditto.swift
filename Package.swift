@@ -3,22 +3,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "Ditto.swift",
-    // platforms: [ .iOS, .macOS ],
+    name: "Ditto",
+    platforms: [ .iOS(.v11) ],
     products: [
         .library(
-            name: "Ditto.swift",
-            targets: ["Ditto.swift"]),
+            name: "Ditto",
+            targets: ["Ditto"]),
     ],
     targets: [
         .binaryTarget(
-            name: "Ditto.swift",
-
-            // path: "./DittoSwift-dist/DittoSwift.xcframework"
+            name: "Ditto",
+            path: "DittoSwift.xcframework"
 
             // url: "https://software.ditto.live/cocoa/DittoSwift/1.0.19/dist/DittoSwift-dist.tar.gz",
-            url: "https://github.com/phatblat/Ditto.swift/releases/download/1.0.19/DittoSwift.xcframework.zip",
-            checksum: "93c65ae87fdd43eb1282bffc33047f543ba8e00d49fbf97bd4c5118be4d5d76b"
+            // url: "https://github.com/phatblat/Ditto.swift/releases/download/1.0.19/DittoSwift.xcframework.zip",
+            // checksum: "93c65ae87fdd43eb1282bffc33047f543ba8e00d49fbf97bd4c5118be4d5d76b"
         )
     ]
 )
