@@ -2,6 +2,8 @@
 
 https://docs.ditto.live/installation/ios
 
+Depends on [Ditto.objc](https://github.com/phatblat/Ditto.objc)
+
 ## 📄 License
 
 This repo is licensed under the **Ditto Binary License**.
