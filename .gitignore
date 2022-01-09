@@ -1,7 +1,11 @@
+*-dist/
+*.tar.gz
+*.zip
 .DS_Store
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+/*.xcodeproj
 /.build
 /Packages
-/*.xcodeproj
-xcuserdata/
 DerivedData/
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+build/
+xcuserdata/
