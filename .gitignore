@@ -1,5 +1,7 @@
 *-dist/
+*.framework/
 *.tar.gz
+*.xcframework/
 *.zip
 .DS_Store
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
