@@ -10,6 +10,9 @@ let package = Package(
             name: "Ditto",
             targets: ["Ditto"]),
     ],
+    dependencies: [
+        .package(url: "https://github.com/phatblat/Ditto.objc", .exact("1.0.19")),
+    ],
     targets: [
         .binaryTarget(
             name: "Ditto",
